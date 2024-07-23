@@ -6,10 +6,10 @@
 
 using namespace std;
 
-const char* hostname = "localhost";
-const char* user = "root";
+const char* hostname = "";
+const char* user = "";
 const char* password = "";
-unsigned long port = 3306;
+unsigned long port = ;
 const char* database = "";
 const char* unixsocket = NULL;
 unsigned long cf = 0;
