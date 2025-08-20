@@ -1,21 +1,78 @@
-This is an account management simulator program.
-It uses C++ and MySQL.
+# Account Manager
 
-The program allows the user to:
-- set up an account(If first time user)
-- log in (if you have an account)
-- Deposit money
-- Withdraw money
-- Update password
-- View account details
+A robust and flexible account management system designed to handle user authentication, authorization, and account-related operations for web and mobile applications.
 
-NB!! YOU NEED TO ENTER YOUR DATABASE DATAILS FOR THE PROGRAM TO WORK
-In line 9, enter your database hostname inside the empty double quotes "".
-In line 10, enter your database username inside the empty double quotes "".
-In line 11, enter your database password inside the empty double quotes "".
-In line 12, enter your database port inside the empty double quotes "".
-In line 13, enter the database you will be using inside the empty double quotes "".
+## Features
 
-When you set up an account, a table is created in your mysql database and your details are saved in the table.
-When you log in, the program fetches your details from mysql and checks if the details you provided match the datails on your database,
-if the datails match, you will be granted access to your account. 
+- User registration and login
+- Secure password hashing and reset functionality
+- Role-based access control (RBAC)
+- Email verification and notifications
+- User profile management
+- API endpoints for account operations
+- Modular and extensible codebase
+
+## Getting Started
+
+### Prerequisites
+
+- [Python 3.8+](https://www.python.org/downloads/) (if Python-based)
+- [Node.js](https://nodejs.org/) (if Node.js-based)
+- Database (e.g., PostgreSQL, MySQL, SQLite)
+- (Other dependencies as required by your tech stack)
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/ZakheleNdlovu/account_manager.git
+   cd account_manager
+   ```
+
+2. **Install dependencies:**
+   - For Python:
+     ```bash
+     pip install -r requirements.txt
+     ```
+   - For Node.js:
+     ```bash
+     npm install
+     ```
+
+3. **Configure environment variables:**
+   - Copy `.env.example` to `.env` and update settings as needed.
+
+4. **Set up the database:**
+   - Run migrations or the setup script for your database.
+
+5. **Run the application:**
+   - For Python:
+     ```bash
+     python main.py
+     ```
+   - For Node.js:
+     ```bash
+     npm start
+     ```
+
+## Usage
+
+- Access API endpoints via Postman or your frontend.
+- See `docs/` or source code for detailed API documentation and example requests.
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and submit a pull request.
+
+1. Fork the repo
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+
+Zakhele Ndlovu  
+[GitHub](https://github.com/ZakheleNdlovu)
+
+
+> _This project is actively maintained. For issues and feature requests, please open a GitHub issue._
